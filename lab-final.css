@@ -1,0 +1,75 @@
+.full-container{
+    border: 1px solid red;
+    height: auto;
+    padding: 10px;
+}
+.full-container .menu{
+    text-align: center;
+}
+.full-container .child{
+    background: gray;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 5px;
+    display: inline-flex;
+    width: 31%;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+.full-container .child h2{
+    text-align: right;
+    margin-top: 4px;
+    margin-left: 0px;
+}
+.full-container .child h2 span{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.full-container .child p{
+    text-align: justify;
+    padding: 5px;
+    padding-right: 15px;
+}
+
+.full-container .child h2.head1 span{
+    background: #d97c66;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.full-container .child h2.head2 span{
+    background: #f11;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.full-container .child h2.head3 span{
+    background: #c8a053;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+@media screen and (max-width: 931px) {
+    .full-container .child.child1{
+        width: 46%;
+    }
+    .full-container .child.child2{
+        width: 46%;
+    }
+    .full-container .child.child3{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .full-container .child.child1{
+        width: 95%;
+    }
+    .full-container .child.child2{
+        width: 95%;
+    }
+    .full-container .child.child3{
+        width: 95%;
+    }
+}
